@@ -1,0 +1,159 @@
+/**STYLES FOR HOME PAGE**/
+.header{
+ height:60px;
+ width:100% ;
+ font-size: 40px;
+ color: rgb(247, 170, 28);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: rgb(5, 5, 3);
+}
+@media screen and (max-width: 500px) {
+    .header a{
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header {
+      float: none;
+    }}
+.btn{
+     height:80px;
+     width: 60px;
+     color:rgb(247, 170, 28);
+    background-color: rgb(24, 24, 23);
+}
+.btn:hover{
+    background-color: rgb(247, 170, 28);
+    color:black;
+}
+
+.body{
+    background-color: black;
+}
+.desc{
+    font-size: 30px;
+    color:  rgb(247, 170, 28);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+   /*Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }*/
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }  
+  .overlay {
+    position: absolute; 
+    bottom: 150; 
+    background: rgba(233, 135, 24); /* Black see-through */
+    color: rgb(0, 0, 0);
+    width: 32%;
+    height:6%;
+    transition: .5s ease;
+    opacity:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .column:hover .overlay {
+    opacity: 1;
+ 
+  }
+/*
+.container{
+    width: 420px;
+    height:450px;
+    padding:2px;
+    background-color:rgb(247, 168, 10);
+    color: rgb(7, 6, 4);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .container{
+      width: 100%;
+    }
+  }
+.img{
+    height:250px;
+    width:400px;   
+}
+
+.burger{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.desc{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .orderbtn{
+        height:50px;
+        width:150px;
+        background-color:black;
+        border-radius: 20px;
+        color:rgb(247, 170, 28);
+    }
+
+
+
+/****************************/
+/***Styles for login & signup page***/
+.bd{
+    background-image: url('https://w0.peakpx.com/wallpaper/770/386/HD-wallpaper-burger-3d-icon-orange-background-3d-symbols-burger-fast-food-icons-3d-icons-burger-sign-fast-food-3d-icons.jpg');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.bg{
+    background-color: black;
+    color:rgb(247, 170, 28);
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px;      
+}
+.input{
+    border:0px;
+    width:200px;
+    color: black;
+    background-color: rgb(247, 170, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    opacity:0.9;
+    height: 40px;
+    text-align:center ;
+}
+.submit{
+    height:40px;
+    width:200px;
+    border:0px;
+    color:rgb(24, 24, 23);
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+   background-color: rgb(247, 170, 28);
+}
